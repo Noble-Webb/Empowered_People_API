@@ -1,4 +1,4 @@
-class CreateExtinctAnimals < ActiveRecord::Migration[6.0]
+class CreateExtinctAnimals < ActiveRecord::Migration[5.2]
   def change
     create_table :extinct_animals do |t|
       t.string :kingdom

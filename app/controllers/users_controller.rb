@@ -1,5 +1,5 @@
-require 'byebug' 
 class UsersController < ApplicationController
+    require 'byebug' 
    
     def index
         users = User.all
