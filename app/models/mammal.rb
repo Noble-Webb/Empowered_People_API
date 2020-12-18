@@ -1,0 +1,3 @@
+class Mammal < ApplicationRecord
+    
+end
