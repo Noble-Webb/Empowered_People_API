@@ -1,5 +1,4 @@
 class PostsController < ApplicationController
-    skip_before_action :authorized
     
     def index
         posts = Post.all 
@@ -47,3 +46,4 @@ class PostsController < ApplicationController
     def post_params
         params.require(:post).permit(:author, :title, :content, :upvote, :user_id)
     end 
+end

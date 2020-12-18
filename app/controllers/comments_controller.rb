@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-    before_action :authorized
+    
 
     def index
         comments = Comment.all
