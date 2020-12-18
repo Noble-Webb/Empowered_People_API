@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_17_225522) do
+ActiveRecord::Schema.define(version: 2020_12_18_005738) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 2020_12_17_225522) do
     t.string "url"
     t.string "kingdom"
     t.string "phylum"
-    t.string "class"
+    t.string "scientific_class"
     t.string "order"
     t.string "family"
     t.string "genus"
