@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :users
   resources :posts
   resources :comments
-  resources :extinct_animals
+  resources :mammals
   post '/auth', to: 'auth#create'
   post '/signup', to: 'user#create'
   get '/current_user', to: 'auth#show'
