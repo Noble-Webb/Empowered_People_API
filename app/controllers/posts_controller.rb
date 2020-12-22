@@ -38,9 +38,9 @@ class PostsController < ApplicationController
     
     def destroy
         post = Post.find(params[:id])
-        post.destroy 
+        post.destroy
 
-        render json: {error: "Alright, you can breathe easy now. The post was deleted."}
+        render json: {error: "Alright, you can breathe easy now. The post was deleted.", post: post}
     end
 
     def post_params
