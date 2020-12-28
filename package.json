@@ -2,6 +2,7 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "react-redux": "^7.2.2",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "register-service-worker": "^1.7.2"
   }
 }

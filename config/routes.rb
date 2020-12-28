@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :posts
   resources :comments
   resources :mammals
+  resources :games
+  get '/experience', to: 'game#show'
   post '/auth', to: 'auth#create'
   post '/signup', to: 'user#create'
   get '/current_user', to: 'auth#show'
