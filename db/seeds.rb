@@ -23,6 +23,20 @@
 
 mammals_array = [
     {
+        common_name: "American mastodon",
+        url: "https://en.wikipedia.org/wiki/American_mastodon",
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        scientific_class: "Mammalia",
+        order: "Proboscidea",
+        family: "Mammutidae",
+        genus: "Mammut",
+        species: "M. americanum",
+        description: "A mastodon (Greek: breast and tooth) is any proboscidean belonging to the extinct genus Mammut (family Mammutidae) that inhabited North and Central America during the late Miocene or late Pliocene up to their extinction at the end of the Pleistocene 10,000 to 11,000 years ago. Mastodons lived in herds and were predominantly forest-dwelling animals that lived on a mixed diet obtained by browsing and grazing, somewhat similar to their distant relatives, modern elephants, but probably with greater emphasis on browsing.",
+        extinction_date_BCE: "8500",
+        range: "North America"
+    }
+    {
         common_name: "American mountain deer",
         url: "https://en.wikipedia.org/wiki/American_mountain_deer",
         kingdom: "Animalia",
@@ -158,7 +172,7 @@ mammals_array = [
         family: "Canidae",
         genus: "Canis",
         species: "C. dirus",
-        description: "Reaching 4m (13ft) at the shoulders and 10 tonnes (22,000lb) in weight, the Columbian mammoth was one of the largest species of mammoth. It had long, curved tusks and four molars, which were replaced six times during the lifetime of an individual. It most likely used its tusks and trunk like modern elephants for manipulating objects, fighting, and foraging. Bones, hair, dung, and stomach contents have been discovered, but no preserved carcasses are known. The Columbian mammoth preferred open areas, such as parkland landscapes, and fed on sedges, grasses, and other plants",
+        description: "The dire wolf (Canis dirus, fearsome dog) is an extinct species of the genus Canis. It is one of the most famous prehistoric carnivores in North America, along with its extinct competitor, the sabre-toothed cat Smilodon fatalis. The dire wolf lived in the Americas and China during the Late Pleistocene and Early Holocene epochs (125,000–9,500 years ago). The dire wolf was about the same size as the largest modern gray wolves (Canis lupus): the Yukon wolf and the northwestern wolf. C. d. guildayi weighed on average 60 kilograms (132 lb) and C. d. dirus was on average 68 kg (150 lb). Its skull and dentition matched those of C. lupus, but its teeth were larger with greater shearing ability, and its bite force at the canine tooth was the strongest of any known Canis species. These characteristics are thought to be adaptations for preying on Late Pleistocene megaherbivores, and in North America its prey are known to have included horses, ground sloths, mastodons, bison, and camels. As with other large Canis hypercarnivores today, the dire wolf is thought to have been a pack hunter. Its extinction occurred during the Quaternary extinction event along with most of the American megafauna of the time, including a number of other carnivores,[note 1] that occurred soon after the appearance of humans in the New World. Its reliance on megaherbivores has been proposed as the cause of its extinction, along with climatic change and competition with other species, or a combination of those factors. Dire wolves lived as recently as 9,500 years ago, according to dated remains.",
         extinction_date_BCE: "7400",
         range: "mid-latitude North America to South America"
     },
