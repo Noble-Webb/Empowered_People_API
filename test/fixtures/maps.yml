@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tiles: MyText
+  entities: MyText
+  exits: MyText
+
+two:
+  tiles: MyText
+  entities: MyText
+  exits: MyText
