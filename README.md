@@ -21,5 +21,5 @@ Empowered People API
   You will need to fork both the front and backend.
   
 ## How to run the test suite
-  To run the current, 2/9/21, database use the command line **rails s -p 3002**
+  To run the current, 2/9/21, database use the command line `rails s -p 3002`
  
