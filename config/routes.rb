@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   post '/auth', to: 'auth#create'
   post '/signup', to: 'user#create'
   get '/current_user', to: 'auth#show'
+  # get '/contact_us', to: 'contact'
   
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
