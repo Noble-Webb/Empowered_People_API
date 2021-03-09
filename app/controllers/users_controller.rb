@@ -16,7 +16,7 @@ class UsersController < ApplicationController
         if user.valid?
             render json: { user: UserSerializer.new(user)}, status: :created
         else
-            render json: {error: "Please enter another Username that one isn't available."}, status: :not_acceptable
+            render json: {error: "Please enter another Username that one isn't available."}, status: :not_acceptable 
         end
     end
     
